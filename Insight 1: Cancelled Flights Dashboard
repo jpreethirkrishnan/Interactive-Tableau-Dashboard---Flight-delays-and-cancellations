@@ -2,3 +2,19 @@
 This answers which state has the most cancelled flights and for what reason.
 
 https://public.tableau.com/views/CancelledflightsDashboard_USflights_2015/CancelledflightsDashboard?:language=en-US&:display_count=n&:origin=viz_share_link
+
+
+###Design and summary:
+My question is to find out which state has the most cancelled flights and for what reason.
+I created an interactive dashboard for this.
+I added latitude, longitude in rows and columns appropriately. Then added the cancelled sum to the 
+colour in Marks tab. Then added Month as filter. Before that I changed the Month data type from 
+Number to String and created aliases for numbers such that 1-Jan 2-feb and so on till 12-Dec. This 
+filter allows us to view the number of cancelled flights per month.
+Then, I added cancellation reason in rows. I also renamed the Aliases such that A – Airline, BWeather, C-Air system.
+I created another horizontal bar chart that shows the cancellation reasons count. Depending on how 
+you filter out these state-wise as well as month-wise, both the map as well as the horizontal bar 
+changes accordingly.
+From this, of all months and all states, I can conclude that the state with the most cancelled flights is 
+Texas with a total of 668 of which 422 is due to Weather and 202 is due to airline and 44 due to air 
+system.
