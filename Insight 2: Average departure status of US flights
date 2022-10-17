@@ -1,0 +1,19 @@
+This Insight provides the average departure status os US Domestic flights
+
+###Click the link for Insight 2 - 
+
+https://public.tableau.com/views/Averagedeparturestatus_USflights_2015/Departurestatus?:language=en-US&:display_count=n&:origin=viz_share_link
+
+
+###Design and summary:
+My question is to find the average departure status (on time or delayed) of the flights from the 
+origin airport.
+To find this, I looked up at the Departure Delay field. I created a new calculated field called 
+‘Departure status’ with the following calculation
+if AVG ([Departure Delay]) <=0 then 'On time'
+else 'Delay'
+End
+I added airport and departure status as a filter. I also added Average Departure delay to the tooltip 
+in the Marks tab.
+From the data, I can conclude that only around 37 airports have the average departure status of ‘on 
+time’. Most of the airports has the average departure status as ‘Delay’
