@@ -1,0 +1,16 @@
+This insight shows the busiest airports in US. Also, the Top 1o.
+
+Click this link for Insight 3-
+https://public.tableau.com/views/Mostbusiestairport_USflights_2015/Busiestairport?:language=en-US&:display_count=n&:origin=viz_share_link
+
+###Design and summary:
+My question is to find the busiest airport based on the total number of flights that took off from 
+each airport.
+I added origin airport as rows and count of flights as columns and designed it as a circle chart type. I 
+also created a group with the first 10 airports as the Top 10 busiest airport and added a filter for the 
+same.
+I also added state in the tooltip so that we know the state where the airport is located as well.
+From the visual, I can conclude that the airport with the greatest number of flights (count - 18,056) is 
+from ATL (Hartsfield-Jackson Atlanta International Airport) airport. The least being MVY (Martha's 
+Vineyard Airport) with a count of 2 flights. From the tooltip, we can say that the state with the 
+greatest number of flights is GA.
